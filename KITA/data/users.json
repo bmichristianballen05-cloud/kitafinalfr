@@ -1,0 +1,30 @@
+[
+    {
+        "name": "ian",
+        "email": "bmi.christianballen05@gmail.com",
+        "password": "$2y$10$QEIKz3Qv59xs4SDdtZbMOOcG9jEVTnyAwDnK\/VKxeDO80veYKYfVm",
+        "location": "Baguio City",
+        "strand": "ICT",
+        "skills": [
+            "HTML",
+            "CSS",
+            "Javascript"
+        ],
+        "experience": 1,
+        "created_at": "2026-02-27T03:44:03+01:00"
+    },
+    {
+        "name": "ian",
+        "email": "babiballen@gmail.com",
+        "password": "$2y$10$g6AirQuwbEIhcpCMMFBfseXqt2omx2DCYTB2oGKCHV84fH2uV95iC",
+        "location": "Baguio City",
+        "strand": "ICT",
+        "skills": [
+            "HTML",
+            "CSS",
+            "Javascript"
+        ],
+        "experience": 0,
+        "created_at": "2026-02-27T04:12:49+01:00"
+    }
+]

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>KITA | Weekly Schedule</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <style>
+        body {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background: #f4f6f8;
+            color: #1f2937;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #fff;
+            border-radius: 16px;
+            box-shadow: 0 10px 28px rgba(15, 23, 42, 0.08);
+            padding: 32px 24px;
+        }
+        .schedule-title {
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 24px;
+            letter-spacing: 0.04em;
+        }
+        table.schedule-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 24px;
+        }
+        table.schedule-table th {
+            background: #ffe5b4;
+            color: #1f2937;
+            font-size: 18px;
+            font-weight: 700;
+            padding: 12px 0;
+            border: 1px solid #d8dee5;
+        }
+        table.schedule-table th:nth-child(3) {
+            background: #ffb6b9;
+        }
+        table.schedule-table th:nth-child(4) {
+            background: #ffb6ff;
+        }
+        table.schedule-table th:nth-child(5),
+        table.schedule-table th:nth-child(6) {
+            background: #d6b6ff;
+        }
+        table.schedule-table td {
+            border: 1px solid #d8dee5;
+            height: 48px;
+            text-align: center;
+            font-size: 16px;
+            background: #fff;
+        }
+        table.schedule-table td.time {
+            background: #f8fafc;
+            font-weight: 600;
+            color: #6b7280;
+        }
+        @media (max-width: 700px) {
+            .container {
+                padding: 12px 4px;
+            }
+            .schedule-title {
+                font-size: 22px;
+            }
+            table.schedule-table th, table.schedule-table td {
+                font-size: 13px;
+                padding: 6px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="schedule-title">CLASS SCHEDULE</div>
+        <table class="schedule-table">
+            <thead>
+                <tr>
+                    <th class="time"></th>
+                    <th style="background:#ffe5b4;">MONDAY</th>
+                    <th style="background:#ffb6b9;">TUESDAY</th>
+                    <th style="background:#ffb6ff;">WEDNESDAY</th>
+                    <th style="background:#d6b6ff;">THURSDAY</th>
+                    <th style="background:#d6b6ff;">FRIDAY</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="time">07:30 - 08:30</td>
+                    <td></td><td></td><td></td><td></td><td></td>
+                </tr>
+                <tr>
+                    <td class="time">08:30 - 09:30</td>
+                    <td></td><td></td><td></td><td></td><td></td>
+                </tr>
+                <tr>
+                    <td class="time">09:30 - 10:30</td>
+                    <td></td><td></td><td></td><td></td><td></td>
+                </tr>
+                <tr>
+                    <td class="time">10:30 - 11:30</td>
+                    <td></td><td></td><td></td><td></td><td></td>
+                </tr>
+                <tr>
+                    <td class="time">11:30 - 12:30</td>
+                    <td></td><td></td><td></td><td></td><td></td>
+                </tr>
+                <tr>
+                    <td class="time">12:30 - 13:30</td>
+                    <td></td><td></td><td></td><td></td><td></td>
+                </tr>
+                <tr>
+                    <td class="time">13:30 - 14:30</td>
+                    <td></td><td></td><td></td><td></td><td></td>
+                </tr>
+                <tr>
+                    <td class="time">14:30 - 15:30</td>
+                    <td></td><td></td><td></td><td></td><td></td>
+                </tr>
+                <tr>
+                    <td class="time">15:30 - 16:30</td>
+                    <td></td><td></td><td></td><td></td><td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
